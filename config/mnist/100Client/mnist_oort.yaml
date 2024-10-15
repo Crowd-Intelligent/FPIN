@@ -1,0 +1,7 @@
+_base_:
+  - ./_base_/40Client.yaml
+  - ./_base_/algo.yaml
+  - ./_base_/task.yaml
+  - ./selector/oort.yaml
+
+save_path: ./result/mnist_oort

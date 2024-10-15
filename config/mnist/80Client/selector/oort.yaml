@@ -1,0 +1,8 @@
+Selector:
+  name: OortSelector
+  args:
+    frac: 0.1
+    explore_rate: 0.9
+    explore_rate_min: 0.1
+    cut_off_util: 0.95
+    decay_factor: 0.97

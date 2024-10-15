@@ -1,0 +1,7 @@
+_base_:
+  - ./_base_/40Client.yaml
+  - ./_base_/algo.yaml
+  - ./_base_/task.yaml
+  - ./selector/min_bid.yaml
+
+save_path: ./result/cifar_min_bid

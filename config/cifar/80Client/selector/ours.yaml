@@ -1,0 +1,4 @@
+Selector:
+  name: NoiseSelector
+  args:
+    frac: 0.1

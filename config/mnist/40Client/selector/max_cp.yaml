@@ -1,0 +1,4 @@
+Selector:
+  name: CostPerformanceSelector
+  args:
+    frac: 0.2

@@ -1,0 +1,23 @@
+# task setting
+Task:
+  Dataset:
+    name: mnist_dataset
+    args:
+      data_dir: ./data/mnist
+  Model:
+    name: CNNMnist
+    args:
+      num_channels: 1
+      num_classes: 10
+  Trainer:
+    name: ImageClassificationTrainer
+    args:
+      epochs: 5
+      batch_size: 64
+      loss_function: nll_loss
+      optimizer:
+        name: SGD
+        args:
+          lr: 0.01
+          momentum: 0.5
+      device: cpu

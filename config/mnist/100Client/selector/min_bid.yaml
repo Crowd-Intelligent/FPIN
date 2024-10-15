@@ -1,0 +1,4 @@
+Selector:
+  name: MinSelector
+  args:
+    frac: 0.1
